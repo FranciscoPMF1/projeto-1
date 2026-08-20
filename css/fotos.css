@@ -8,3 +8,36 @@ h2{
     
 }
 
+.fotos-momentos-1{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.foto-mao{
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.fotos-arena{
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.fotos-elevador{
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.foto-guara{
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
