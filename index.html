@@ -69,5 +69,22 @@
         <span>💗</span>
     </div>
 
+    <div class="surpresa">
+        <button class="botao-coracao" onclick="mostrarMensagem()">
+        💗
+        </button>
+
+        <p id="mensagem-surpresa">
+         Você é o amor da minha vida! 💕
+        </p>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+          const mensagem = document.getElementById("mensagem-surpresa");
+            mensagem.classList.toggle("aparecer");
+        }
+    </script>
+
 
 </body>
