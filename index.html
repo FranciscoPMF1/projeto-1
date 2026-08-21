@@ -41,13 +41,17 @@
         <img  class="foto-principal" src="./img/mell.jpeg"></img>
     
         <img  class="foto-ano-novo" src="./img/ano-novo.jpeg"><img>
-    
+
+        <img  class="foto-festa" src="./img/festa.jpeg"><img>
+
+        <img  class="foto-sorvete" src="./img/sorvete.jpeg"><img>
+
         <img class="foto-loucos" src="./img/loucos.jpeg"><img>
     
     </div>
     
     <button>
-        <a href="https://pt.scribd.com/document/799419393/Eu-te-amo#google_vignette">Pra você que é curiosa</a>
+        <a href="./mil-linguas.html">PRA VOCÊ QUE É CURIOSA</a>
     </button>
     
     <p>Cara você é a menina mais incrível do mundo, você me faz tão bem de uma forma inesplicável, <br>
@@ -68,6 +72,23 @@
         <span>💖</span>
         <span>💗</span>
     </div>
+
+    <div class="surpresa">
+        <button class="botao-coracao" onclick="mostrarMensagem()">
+        💗
+        </button>
+
+        <p id="mensagem-surpresa">
+         Você é o amor da minha vida! 💕
+        </p>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+          const mensagem = document.getElementById("mensagem-surpresa");
+            mensagem.classList.toggle("aparecer");
+        }
+    </script>
 
 
 </body>
